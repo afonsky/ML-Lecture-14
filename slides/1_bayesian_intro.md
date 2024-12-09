@@ -5,7 +5,7 @@ layout: center
 
 
 ---
-zoom: 0.92
+zoom: 0.90
 ---
 
 # Algorithms & Inference
@@ -77,8 +77,8 @@ zoom: 0.92
 <v-clicks depth="3">
 
 * In Bayesian Inference we assume
-  * Probability density family family parameterized with $\theta, \mathcal{F}_{\theta}(X)$
-    * $\theta$ can be a scalar or a vecotor. Ex.: $\mathrm{Multinomial}(\theta_1, ..., \theta_{p-1})$
+  * Probability density family parameterized with $\theta, \mathcal{F}_{\theta}(X)$
+    * $\theta$ can be a scalar or a vector. Ex.: $\mathrm{Multinomial}(\theta_1, ..., \theta_{p-1})$
   * A prior density, $f(\theta)$: prior information about the parameter $\theta$
     * $f$ is available to us **before** we observe the data $x$ (note no dependence on $X$)
 
@@ -157,6 +157,8 @@ $$
 </div>
 </div>
 
+---
+zoom: 0.96
 ---
 
 # Ex. Spelling Correction ([see full example](http://www.stat.columbia.edu/~gelman/stuff_for_blog/spelling.pdf))
